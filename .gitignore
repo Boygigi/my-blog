@@ -1,0 +1,39 @@
+# 操作系统临时文件
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.vs/
+*.swp
+
+# AI 编程助手
+.claude/
+
+# Go 编译产物 (跨平台)
+*.exe
+*.test
+*.out
+
+# 敏感配置文件（含真实密钥，绝不提交）
+server/config.yaml
+.env
+.env.*
+!.env.example
+
+# 日志文件（可能含 token / SQL / 用户数据）
+*.log
+server/log/
+web/logs/
+
+
+# 运行时产物
+server/log/
+server/uploads/
+
+# 本地临时草稿
+test.txt
+
+# 导出的数据文件
+server/*.sql
+server/*.json

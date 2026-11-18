@@ -280,6 +280,7 @@ func (articleService *ArticleService) ArticleUpdate(req request.ArticleUpdate) e
 	})
 }
 
+// 文章列表
 func (articleService *ArticleService) ArticleList(info request.ArticleList) (list interface{}, total int64, err error) {
 	req := &search.Request{
 		Query: &types.Query{},
